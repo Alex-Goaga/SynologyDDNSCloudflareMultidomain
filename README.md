@@ -73,6 +73,7 @@ Before starting the installation process, make sure you have (and know) the foll
   ```
   wget https://raw.githubusercontent.com/mrikirill/SynologyDDNSCloudflareMultidomain/master/cloudflare.php -O /usr/syno/bin/ddns/cloudflare.php && sudo chmod 755 /usr/syno/bin/ddns/cloudflare.php
   ```
+**Note:** If you disabled the admin account for security reasons and you logged with a secondary admin account, you must connect to your device as root using sudo -i command. No other username will allow these commands to run.
 
 * For SRM Users
   Note: Ensure you are connected as root in your SSH session
